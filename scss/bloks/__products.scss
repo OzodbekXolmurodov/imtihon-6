@@ -1,0 +1,109 @@
+.products {
+  margin-bottom: 105px;
+
+  &__div-main {
+    border: none;
+    width: 270px;
+    margin-bottom: 30px;
+    transition: transform 1.3s ease;
+    border-radius: 10px;
+    position: relative; /* Absolyut pozitsiya uchun */
+    overflow: hidden; /* Ichki elementlar qutidan chiqmasligi uchun */
+  }
+
+  &__div-big {
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  &__div-img {
+    border: none;
+    padding: 35px 40px;
+    background-color: #f5f5f5;
+    margin-bottom: 16px;
+    cursor: pointer;
+    position: relative; /* Ichki elementlar uchun pozitsiya */
+  }
+
+  &__title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    font-family: "Roboto", serif;
+  }
+
+  &__div-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  &__price {
+    font-size: 16px;
+    line-height: 24px;
+    color: #db4444;
+  }
+
+  &__p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #00000080;
+  }
+
+  &__star {
+    padding-top: 2px;
+  }
+
+  &__hert {
+    position: absolute;
+    top: 12px;
+    left: 226px;
+    z-index: 1;
+  }
+
+  &__see {
+    position: absolute;
+    top: 52px;
+    left: 226px;
+    z-index: 1;
+  }
+
+  .add-to-cart {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    z-index: 2;
+  }
+
+  &__div-main:hover .add-to-cart {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  &__btn-contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  &__btn {
+    padding: 16px 48px;
+    background-color: #db4444;
+    border: none;
+    border-radius: 4px;
+    color: #f5f5f5;
+  }
+}

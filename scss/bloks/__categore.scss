@@ -1,0 +1,44 @@
+.catigore {
+  &__ul {
+    text-align: center;
+    border: 1px solid #0000004d;
+    border-radius: 4px;
+    width: 170px;
+    height: 145px;
+    padding: 20px 22px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    &:hover {
+      background-color: #db4444;
+      border: none;
+    }
+  }
+  &__img {
+    margin-bottom: 16px;
+    width: 56px;
+    height: 56px;
+  }
+  &__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__li {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    font-family: "Roboto", serif;
+  }
+  &__h2 {
+    font-size: 36px;
+    line-height: 48px;
+    color: #000;
+    margin-bottom: 60px;
+    margin-top: 20px;
+  }
+  &__hr {
+    border: 0.5px solid #00000030;
+    margin-top: 70px;
+    margin-bottom: 63px;
+  }
+}
