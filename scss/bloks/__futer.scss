@@ -1,0 +1,74 @@
+.futer {
+  background-color: #000000;
+  padding: 80px 135px;
+  &__div-main {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    position: relative;
+  }
+  &__ul-1 {
+    border: none;
+    border-width: 217px;
+  }
+  &__main-text {
+    font-size: 24px;
+    line-height: 24px;
+    color: #fafafa;
+    padding-bottom: 24px;
+  }
+  &__li-text {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 24px;
+    color: #fafafa;
+  }
+  &__text-main {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+    color: #fafafa;
+  }
+  &__text-main-1 {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+  }
+  &__input {
+    padding: 12px 12px 12px;
+    background-color: #000000;
+    border: 1.5px solid #fafafa;
+    color: #fafafa;
+  }
+  &__img {
+    position: absolute;
+    top: 147px;
+    left: 160px;
+  }
+  &__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__app {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__gog {
+    padding-top: 4px;
+  }
+  &__ikonka {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-top: 24px;
+  }
+  &__text-main-2 {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+    color: #fafafa;
+    width: 160px;
+  }
+}

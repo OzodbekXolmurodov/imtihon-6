@@ -42,7 +42,7 @@
     margin-top: 10px;
   }
 
-  &__price {
+  &__pris {
     font-size: 16px;
     line-height: 24px;
     color: #db4444;
@@ -61,14 +61,14 @@
   &__hert {
     position: absolute;
     top: 12px;
-    left: 226px;
+    left: 232px;
     z-index: 1;
   }
 
   &__see {
     position: absolute;
     top: 52px;
-    left: 226px;
+    left: 232px;
     z-index: 1;
   }
 
@@ -105,5 +105,16 @@
     border: none;
     border-radius: 4px;
     color: #f5f5f5;
+    &:active {
+      background-color: #f5f5f5;
+      color: #db4444;
+    }
+  }
+  &__img {
+    width: 190px;
+    height: 180px;
+  }
+  &__imgs {
+    margin-top: 80px;
   }
 }

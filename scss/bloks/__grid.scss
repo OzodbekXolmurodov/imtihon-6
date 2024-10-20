@@ -1,0 +1,25 @@
+.grid {
+  margin-bottom: 140px;
+  &__div-big {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 29px;
+  }
+  &__div-main {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  &__h2 {
+    font-size: 36px;
+    line-height: 48px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+}
+.div__glabal {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}

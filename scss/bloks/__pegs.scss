@@ -1,0 +1,40 @@
+.body {
+  margin: 80px auto;
+  &__img {
+    width: 500px;
+    height: 600px;
+  }
+  &__div {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+  &__tatle {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  &__pris {
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  &__p {
+    font-size: 14px;
+    line-height: 21px;
+    width: 373px;
+    margin-bottom: 24px;
+  }
+  &__moshina {
+    margin-top: 40px;
+  }
+  &__start {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__img-sorch {
+    right: 160px;
+  }
+}
